@@ -77,4 +77,71 @@ nav ul li::marker{
 #seeMoreContent
 {
 	display: none;
+	padding: .3rem;
 }
+#homeContent h1,
+#aboutContent h1,
+#contactContent h1,
+#seeMoreContent h1
+{
+	text-align: center;
+	line-height: 70%;
+}
+.news{
+	float: left;
+	width: 30%;
+	margin: 0 0 .2rem .25rem;
+	padding: .2rem;
+	font-size: .9rem;
+	text-align: justify;
+}
+.news img{
+	width: 5rem;
+	height: 5rem;
+	float: left;
+	margin-right: .3rem;
+}
+.news,
+.news img{
+	border: 1px solid #0064ff;
+	border-radius: .3rem;
+}
+.author{
+	float: left;
+	width: 49%;
+	min-width: 10rem;
+	margin: 0 0 .2rem .25rem;
+	padding: .2rem;
+	font-size: .9rem;
+	text-align: justify;
+}
+.author img{
+	width: 9rem;
+	height: 9rem;
+	float: left;
+	margin-right: .3rem;
+}
+.author,
+.author img{
+	border: 1px solid #0064ff;
+	border-radius: .3rem;
+}
+.author .name,
+.news .name{
+	font-weight: bold;
+	text-align: center;
+}
+.author .name{
+	font-size: 1.2rem;
+	text-align: left;
+}
+.authorReference{
+	text-align: left !important;
+}
+
+
+
+
+
+
+
