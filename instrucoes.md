@@ -12,7 +12,9 @@ git pull
 
 ## Subir ou commit as suas alterações
 git add .
+
 git commit -m "mensagem de commit, geralmente inicia com 'feat: ' (coisas novas), 'fix: ' (indica correções)"
+
 git push (vai pedir seu usuário e senha do github) 
 
 ## Fazer um backup local
