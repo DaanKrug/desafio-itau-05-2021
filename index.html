@@ -11,49 +11,58 @@
         <link href="./assets/css/styles.css" 
               rel="stylesheet" />
         <script type="text/javascript" 
-                href="./assets/js/scripts.css">
+                src="./assets/js/scripts.js">
         </script>
     </head>
-    <body>
+    <body onload="resized();" 
+          onresize="resized();">
     	<header>
     		Desafio Itaú - 05/2021
     	</header>
-    	<nav>
+    	<nav id="nav">
     		<div class="header"
     		     aria-label="Menu Principal">
     			Menu Principal
     		</div>
     		<ul>
     			<li>
-    				<span aria-label="Home">
-    					Home
+    				<span id="homeBt"
+    				      aria-label="Página Inicial"
+    				      onclick="clicked(this.id);">
+    					Página Inicial
     				</span>
     			</li>
     			<li>
-    				<span aria-label="Sobre">
+    				<span id="aboutBt"
+    					  aria-label="Sobre"
+    				      onclick="clicked(this.id);">
     					Sobre
     				</span>
     			</li>
     			<li>
-    				<span aria-label="Contato">
+    				<span id="contactBt"
+    					  aria-label="Contato"
+    				      onclick="clicked(this.id);">
     					Contato
     				</span>
     			</li>
     			<li>
-    				<span aria-label="Saiba mais">
+    				<span id="seeMoreBt"
+    					  aria-label="Saiba mais"
+    				      onclick="clicked(this.id);">
     					Saiba Mais
     				</span>
     			</li>
     		</ul>
     	</nav>
-    	<main>
-    		<div class="header"
+    	<main id="main">
+    		<div id="viewTitle"
+    			 class="header"
     		     aria-label="Título do Conteúdo Sendo Mostrado">
-    			<span id="contentTitleAppender"></span>
     		</div>
     		<div id="homeContent"
-    		     aria-label="Conteúdo da página Home">
-    		Home
+    		     aria-label="Conteúdo da Página Inicial">
+    		Página Inicial
     		</div>
     		<div id="aboutContent"
     		     aria-label="Conteúdo da página Sobre">
