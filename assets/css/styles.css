@@ -236,6 +236,15 @@ nav ul li::marker{
 		color: #d3fd07;
 		background-color: #093d6a;
 	}
+	#contactForm{
+		padding: .3rem .5rem;
+	}
+	#contactForm,
+	#seeMoreContent{
+		border: 1px solid #0064ff;
+		border-radius: .3rem;
+		margin: .3rem;
+	}
 }
 
 
