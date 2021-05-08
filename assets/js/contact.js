@@ -11,7 +11,12 @@ document.addEventListener('submit',(event) => {
 	var email = document.getElementById('email').value;
 	var message = document.getElementById('message').value;
 	fetch(webhookUrl,{
+		headers: new Headers([
+			['Accept', 'application/json'],
+			['Content-Type', 'application/json']
+		]),
 		method: 'POST',
+		origin: webhookUrl,
 		body: {
 			name: name,
 			email: email,
