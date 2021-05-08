@@ -161,7 +161,12 @@ nav ul li::marker{
 .w99{
 	width: 99%;
 }
-
+.buttons{
+	padding: 0.3rem 0;	
+}
+.buttons input{
+	cursor: pointer;
+}
 /**
 	Fim
 	CSS por Daniel Augusto Krug
