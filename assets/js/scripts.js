@@ -1,3 +1,6 @@
+/**
+	JS por Daniel Augusto Krug
+*/
 function contentTop(){
 	document.getElementById('main').scrollTo(0,0);
 }
@@ -31,3 +34,7 @@ function clicked(id){
 setTimeout(() => {
 	clicked('homeBt');
 },100);
+/**
+	Fim
+	JS por Daniel Augusto Krug
+*/

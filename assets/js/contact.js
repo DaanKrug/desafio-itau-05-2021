@@ -1,3 +1,6 @@
+/**
+	JS por Daniel Augusto Krug
+*/
 // https://webhook.site/#!/99cf7ed2-b14f-4745-84ba-9478534b0594/d0efac75-dff3-4a75-891c-e9dcbd156802/1
 var webhookUrl = 'https://webhook.site/99cf7ed2-b14f-4745-84ba-9478534b0594';
 var webhookEmail = '99cf7ed2-b14f-4745-84ba-9478534b0594@email.webhook.site';
@@ -30,3 +33,7 @@ document.addEventListener('submit',(event) => {
 		alert('Erro ao Enviar Contato');
 	});
 });
+/**
+	Fim 
+	JS por Daniel Augusto Krug
+*/
