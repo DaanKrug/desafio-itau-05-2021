@@ -74,9 +74,6 @@ nav ul li span:hover,
 nav ul li::marker{
 	color: transparent;
 }
-textarea{
-	width: 99%;
-}
 #homeContent,
 #aboutContent,
 #contactContent,
@@ -152,6 +149,19 @@ textarea{
 	float: left;
 	margin-right: .2rem;
 }
+.center{
+	text-align: center;
+}
+.w49{
+	width: 49%;
+}
+.w96{
+	width: 96%;
+}
+.w99{
+	width: 99%;
+}
+
 /**
 	Fim
 	CSS por Daniel Augusto Krug

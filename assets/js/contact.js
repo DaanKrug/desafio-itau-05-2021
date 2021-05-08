@@ -1,6 +1,7 @@
 const contactForm = document.getElementById('contactForm');
 
-contactForm.addEventListener('submit',(event) => {
+contactForm.addEventListener('onsubmit',(event) => {
 	event.preventDefault();
-	
+	event.cancelBubble();
+	alert('Echoo !');
 });

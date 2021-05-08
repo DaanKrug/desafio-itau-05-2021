@@ -163,6 +163,9 @@
     		</div>
     		<div id="aboutContent"
     		     aria-label="Conteúdo da página Sobre">
+    		    <!-- 
+    		    	Cada um dos participantes desenvolveu seu card abaixo 
+    		    -->
     			<div>
     				<h1>Participantes Do Projeto</h1>
     				<div class="author">
@@ -228,28 +231,58 @@
     					</div>
     				</div>
     			</div>
+    			<!-- 
+    				Fim 
+    				Cada um dos participantes desenvolveu seu card abaixo 
+    			-->
     		</div>
     		<div id="contactContent"
     		     aria-label="Conteúdo da página Contato">
+    		    <!-- 
+    		    	Form de Contato desenvolvido por: Daniel Augusto Krug
+    		    	Atributos "placeholder" e "aria-label" adicionados por: 
+    		    -->
     			<form id="contactForm" 
-    			      action="/">
-    				<span class="field">
-    					<label for="name">Nome</label>
+    			      action=".">
+    				<span class="field w49">
+    					<label for="name">
+    						Nome
+    					</label>
     					<br/>
-    					<input type="text" 
+    					<input type="text"
+    					       class="w96" 
     					       id="name"/> 
     				</span>
-    				<span class="field">
-    					<label for="email">E-mail</label>
+    				<span class="field w49">
+    					<label for="email">
+    						E-mail
+    					</label>
     					<br/>
     					<input type="text" 
+    						   class="w96"
     					       id="email" /> 
     				</span>
     				<div class="clear"></div>
+    				<label for="message">
+    					Deixe Sua Mensagem de Contato Aqui
+    				</label>
     				<textarea id="message"
+    						  class="w99"
    					          rows="3">
    					</textarea>
+   					<div class="clear"></div>
+   					<div class="center">
+   						<input type="reset" 
+   						       value="Cancelar"/>
+   						<input type="submit" 
+   						       value="Enviar"/>
+   					</div>
     			</form>
+    			<!-- 
+    				Fim
+    		    	Form de Contato desenvolvido por: Daniel Augusto Krug
+    		    	Atributos "placeholder" e "aria-label" adicionados por: 
+    		    -->
     		</div>
     		<div id="seeMoreContent"
     		     aria-label="Conteúdo da página Saiba Mais">
