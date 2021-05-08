@@ -109,6 +109,7 @@ textarea{
 	border: 1px solid #0064ff;
 	border-radius: .3rem;
 }
+
 .author{
 	float: left;
 	width: 48%;
@@ -148,6 +149,17 @@ textarea{
 	float: left;
 	margin-right: .2rem;
 }
+/** CSS por: Ceres Prado */
+.bluebox{
+    	float: left;
+	margin: 0 0 .2rem .25rem;
+    	padding: .2rem;
+    	text-align: center;
+    	border: 1px solid #609af5;
+    	border-radius: .3rem;
+    	background-color: #1282a4;
+}
+/** fim CSS por: Ceres Prado */
 
 
 
