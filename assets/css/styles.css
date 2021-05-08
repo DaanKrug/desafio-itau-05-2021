@@ -1,3 +1,6 @@
+/**
+	CSS por Daniel Augusto Krug
+*/
 body{
 	margin: 0; 
 	padding: 0;
@@ -71,9 +74,6 @@ nav ul li span:hover,
 nav ul li::marker{
 	color: transparent;
 }
-textarea{
-	width: 99%;
-}
 #homeContent,
 #aboutContent,
 #contactContent,
@@ -138,6 +138,7 @@ textarea{
 .author .name{
 	font-size: 1.2rem;
 	text-align: left;
+	margin-left: .2rem; /** CSS Alterado por: Daniel Augusto Krug */
 }
 .authorReference{
 	text-align: left !important;
@@ -149,6 +150,28 @@ textarea{
 	float: left;
 	margin-right: .2rem;
 }
+.center{
+	text-align: center;
+}
+.w49{
+	width: 49%;
+}
+.w96{
+	width: 96%;
+}
+.w99{
+	width: 99%;
+}
+.buttons{
+	padding: 0.3rem 0;	
+}
+.buttons input{
+	cursor: pointer;
+}
+/**
+	Fim
+	CSS por Daniel Augusto Krug
+*/
 /** CSS por: Ceres Prado */
 .bluebox{
     	float: left;
@@ -160,11 +183,3 @@ textarea{
     	background-color: #1282a4;
 }
 /** fim CSS por: Ceres Prado */
-
-
-
-
-
-
-
-
