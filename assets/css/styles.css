@@ -108,7 +108,7 @@ nav ul li::marker{
 }
 .author{
 	float: left;
-	width: 49%;
+	width: 48%;
 	min-width: 10rem;
 	margin: 0 0 .2rem .25rem;
 	padding: .2rem;
