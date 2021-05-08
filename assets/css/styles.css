@@ -1,3 +1,6 @@
+/**
+	CSS por Daniel Augusto Krug
+*/
 body{
 	margin: 0; 
 	padding: 0;
@@ -137,6 +140,7 @@ textarea{
 .author .name{
 	font-size: 1.2rem;
 	text-align: left;
+	margin-left: .2rem; /** CSS Alterado por: Daniel Augusto Krug */
 }
 .authorReference{
 	text-align: left !important;
@@ -148,8 +152,10 @@ textarea{
 	float: left;
 	margin-right: .2rem;
 }
-
-
+/**
+	Fim
+	CSS por Daniel Augusto Krug
+*/
 
 
 
