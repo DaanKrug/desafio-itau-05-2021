@@ -71,6 +71,9 @@ nav ul li span:hover,
 nav ul li::marker{
 	color: transparent;
 }
+textarea{
+	width: 99%;
+}
 #homeContent,
 #aboutContent,
 #contactContent,
@@ -138,6 +141,14 @@ nav ul li::marker{
 .authorReference{
 	text-align: left !important;
 }
+.clear{
+	clear: both;
+}
+.field{
+	float: left;
+	margin-right: .2rem;
+}
+
 
 
 
