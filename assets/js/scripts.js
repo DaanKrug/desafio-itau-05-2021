@@ -5,8 +5,9 @@ function contentTop(){
 	document.getElementById('main').scrollTo(0,0);
 }
 function resized(){
-	document.getElementById('nav').style.maxHeight = (window.innerHeight - 60) + 'px';
-	document.getElementById('main').style.maxHeight = (window.innerHeight - 60) + 'px';
+	var smaller = window.innerWidth <= 1000 ? 90 : 60;
+	document.getElementById('nav').style.maxHeight = (window.innerHeight - smaller) + 'px';
+	document.getElementById('main').style.maxHeight = (window.innerHeight - smaller) + 'px';
 }
 var opts = [
 	{id: 'homeBt', contentId: 'homeContent', title: 'Página Inicial'},
