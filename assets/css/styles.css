@@ -102,7 +102,7 @@ nav ul li::marker{
 	text-align: justify;
 	height: 20em;
 	overflow: hidden;             
-    text-overflow: "...";
+  	text-overflow: "...";
 }
 .news img{
 	width: 5rem;
@@ -118,10 +118,9 @@ nav ul li::marker{
 
 .author{
 	float: left;
-	width: 48%;
-	min-width: 10rem;
+	width: 48.59%;
 	margin: 0 0 .2rem .25rem;
-	padding: .2rem;
+	padding: .1rem;
 	font-size: .8rem;
 	text-align: justify;
 }
@@ -256,8 +255,14 @@ nav ul li::marker{
 		width: 47%;
 		font-size: .85rem;
 	}
+	.author{
+		width: 49%;
+		font-size: .85rem;
+	}
+/** CSS por: Ceres Prado */
 	.bluebox{
 		width: 96%;
 	}
+/** fim CSS por: Ceres Prado */
 }
 
