@@ -182,7 +182,7 @@ nav ul li::marker{
 .bluebox{
     	float: left;
 	margin: 0 0 .2rem .25rem;
-    	padding: .2rem;
+	padding: .2rem;
     	text-align: center;
     	border: 1px solid #609af5;
     	border-radius: .3rem;
@@ -255,8 +255,10 @@ nav ul li::marker{
 		width: 47%;
 		font-size: .85rem;
 	}
+/** CSS por: Ceres Prado */
+	.bluebox{
+		width: 92%;
+	}
+/** Fim CSS por: Ceres Prado */
 }
-
-
-
 
