@@ -11,6 +11,16 @@ function resized(){
 }
 var opts = [
 	{id: 'homeBt', contentId: 'homeContent', title: 'Página Inicial'},
+	{id: 'sensibilityBt', 
+	 contentId: 'sensibilityContent', 
+	 title: 'Como a Pandemia Sensibilizou a Sociedade Para com PCD\'s'
+	},
+	{id: 'accessibilityBt', 
+	 contentId: 'accessibilityContent', 
+	 title: 'Como a Pandemia Melhorou a T.I.: Mais Olhares para Acessibilidade Na Web'},
+	{id: 'empregabilityBt', 
+	 contentId: 'empregabilityContent', 
+	 title: 'Como a Pandemia Melhorou a Empregabilidade PCD'},
 	{id: 'aboutBt', contentId: 'aboutContent', title: 'Sobre'},
 	{id: 'contactBt', contentId: 'contactContent', title: 'Contato'},
 	{id: 'seeMoreBt', contentId: 'seeMoreContent', title: 'Saiba Mais'}
