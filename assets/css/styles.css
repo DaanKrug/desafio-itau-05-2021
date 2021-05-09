@@ -115,15 +115,16 @@ nav ul li::marker{
 	border: 1px solid #0064ff;
 	border-radius: .3rem;
 }
-
+/** CSS ajustado por: Ceres Prado */
 .author{
 	float: left;
-	width: 48%;
-	margin: 0 .0 .2rem .25rem;
-	padding: .4rem;
+	width: 47.5%;
+	margin: 0 .18rem .2rem .18rem;
+	padding: .2rem .3rem .2rem .3rem;
 	font-size: .8rem;
 	text-align: justify;
 }
+/** fim CSS ajustado por: Ceres Prado */
 .author img{
 	width: 9rem;
 	height: 9rem;
@@ -253,10 +254,6 @@ nav ul li::marker{
 	}
 	.news{
 		width: 47%;
-		font-size: .85rem;
-	}
-	.author{
-		width: 45%;
 		font-size: .85rem;
 	}
 /** CSS por: Ceres Prado */
