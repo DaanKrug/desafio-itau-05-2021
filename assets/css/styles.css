@@ -91,11 +91,17 @@ nav ul li::marker{
 #aboutContent h1,
 #contactContent h1,
 #seeMoreContent h1,
-#sensibilityContent h1,
+#sensibilityContent h1, 
+#sensibilityContent h3,
 #empregabilityContent h1
 {
 	text-align: center;
-	line-height: 70%;
+	line-height: 100%;
+}
+#sensibilityContent span{
+	text-align: justify;
+	margin: 0.5rem;
+	display: block;
 }
 .news{
 	float: left;
