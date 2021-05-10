@@ -62,6 +62,7 @@ nav ul li span{
 	display: block;
 	text-align: left;
 	font-size: 1rem;
+	font-family: Roboto;
 }
 nav ul li span{
 	padding-left: .5rem;
@@ -102,6 +103,7 @@ nav ul li::marker{
 	text-align: justify;
 	margin: 0.5rem;
 	display: block;
+	font-family: Roboto;
 }
 .news{
 	float: left;
@@ -133,6 +135,7 @@ nav ul li::marker{
 	padding: .2rem .3rem .2rem .3rem;
 	font-size: .8rem;
 	text-align: justify;
+	font-family: Roboto;
 }
 /** fim CSS ajustado por: Ceres Prado */
 .author img{
