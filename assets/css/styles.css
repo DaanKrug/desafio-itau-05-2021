@@ -106,6 +106,10 @@ nav ul li::marker{
 	display: block;
 	font-family: Roboto;
 }
+#contactContent,
+#seeMoreContent{
+	font-family: Roboto;
+}
 .news{
 	float: left;
 	width: 30%;
