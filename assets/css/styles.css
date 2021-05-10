@@ -99,7 +99,8 @@ nav ul li::marker{
 	text-align: center;
 	line-height: 100%;
 }
-#sensibilityContent span{
+#sensibilityContent span,
+#empregabilityContent span{
 	text-align: justify;
 	margin: 0.5rem;
 	display: block;
