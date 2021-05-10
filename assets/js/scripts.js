@@ -15,9 +15,6 @@ var opts = [
 	 contentId: 'sensibilityContent', 
 	 title: 'Como a Pandemia Sensibilizou a Sociedade Para com PCD\'s'
 	},
-	{id: 'accessibilityBt', 
-	 contentId: 'accessibilityContent', 
-	 title: 'Como a Pandemia Melhorou a T.I.: Mais Olhares para Acessibilidade Na Web'},
 	{id: 'empregabilityBt', 
 	 contentId: 'empregabilityContent', 
 	 title: 'Como a Pandemia Melhorou a Empregabilidade PCD'},

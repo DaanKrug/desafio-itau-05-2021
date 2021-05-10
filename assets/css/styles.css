@@ -80,7 +80,9 @@ nav ul li::marker{
 #homeContent,
 #aboutContent,
 #contactContent,
-#seeMoreContent
+#seeMoreContent,
+#sensibilityContent,
+#empregabilityContent
 {
 	display: none;
 	padding: .3rem;
@@ -88,7 +90,9 @@ nav ul li::marker{
 #homeContent h1,
 #aboutContent h1,
 #contactContent h1,
-#seeMoreContent h1
+#seeMoreContent h1,
+#sensibilityContent h1,
+#empregabilityContent h1
 {
 	text-align: center;
 	line-height: 70%;
